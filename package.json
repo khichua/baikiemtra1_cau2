@@ -1,0 +1,27 @@
+{
+  "name": "ronin-erc20-balance-checker",
+  "version": "1.0.0",
+  "description": "Ứng dụng kiểm tra số dư token ERC20 trên mạng Ronin Saigon",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "keywords": [
+    "blockchain",
+    "erc20",
+    "ronin",
+    "ethereum"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^5.7.2",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "@types/readline-sync": "^1.4.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
